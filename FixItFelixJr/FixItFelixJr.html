@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Fix It Felix</title>
+
+    <!-- link in style sheets -->
+    <link href="css/canvas-template.css" type="text/css" rel="stylesheet" />
+      
+    <!-- include JS scripts -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/FixItFelixJr.js"></script>
+
+</head>
+
+<body>
+    
+    <h1 class="font-Orbitron center-text"> 
+        <span class="left-text"> Score: <span id="playerScore"></span> </span>
+        <span>Fix It Felix Jr</span> 
+        <span class="right-text"><span id="playerLives" ></span> Lives</span>
+    </h1>
+         
+    
+    <!-- Canvas -->
+    <canvas id="myCanvas" width="400" height="500" class="center-block">
+        Your browser doesn't support Canvas.
+    </canvas>    
+    <!-- ^ End Canvas -->
+ 
+    <div id="canvasControls">
+        <p>
+            Controls:
+        </p>
+        <p>
+           A to Move Left - 
+           D to Move Right -  
+           W to Move Up - 
+           S to Move Down
+        </p>
+        <p>
+            Press and Hold Space to Fix Window
+        </p>
+    </div>
+    <!-- ^ End Controls -->
+
+</body>
+</html>

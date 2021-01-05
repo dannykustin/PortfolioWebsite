@@ -1,0 +1,79 @@
+/*
+	canvas-template.css 
+*/
+
+/* -------------------------------------------------------------- */
+/* Fonts */
+
+/* find fonts that you like from https://www.google.com/fonts/ and include them here*/
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+
+/* -------------------------------------------------------------- */
+/* Framing Styles */
+
+body {
+    /* color */
+    color: #ffffff; 
+    background-color: #111;
+}
+
+/* -------------------------------------------------------------- */
+/* Front Workaround -- Need to use fonts on the page to use on Canvas */
+
+#fontFix {
+    visibility: hidden;	   /* hide this section */
+}
+
+.font-Orbitron {
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.font-Special-Elite {
+    font-family: 'Special Elite'; 
+}
+
+
+/* -------------------------------------------------------------- */
+/* Canvas Styles */
+
+#myCanvas {
+    margin-top:  40px;    
+}
+
+/* -------------------------------------------------------------- */
+/* Button Styles */
+
+#canvasControls {
+    text-align: center;
+}
+
+/* -------------------------------------------------------------- */
+/* Alignment Rules */
+
+.left-text {
+    float: left;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    float: right;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
